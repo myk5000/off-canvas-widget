@@ -1,3 +1,37 @@
 body {
 	margin-top: 40px;
 }
+
+#teashopbtn {
+	padding: 10px;
+}
+
+.padding {
+	padding: 10px;
+}
+
+#myNavmenu ul li a img{
+	max-width: 20px;
+	
+}
+
+#myNavmenu ul li{
+	padding: 10px;
+	
+}
+
+/*position and hide the menu initially - leave room for the menu to expand...*/
+#description {
+	margin-left:150px; width:510px;
+}
+#page {
+	padding:20px 0; width:100%;
+}
+#docmenu {
+	position:absolute; top:0; left:0; display:none;
+}
+/*dock styling...*/
+/*...set the cursor...*/
+#docmenu div.jqDock {
+	cursor:pointer;
+}
